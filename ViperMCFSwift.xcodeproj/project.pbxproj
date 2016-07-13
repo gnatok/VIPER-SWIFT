@@ -89,6 +89,7 @@
 		A644D1704027BD9DD9D11401 /* SecondModuleRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SecondModuleRouter.swift; sourceTree = "<group>"; };
 		AE4C69E3507F82DD72E3A301 /* ThirdModuleRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThirdModuleRouter.swift; sourceTree = "<group>"; };
 		B5F4D7A1FF9BDFD3F1EF0F67 /* FisrtModuleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FisrtModuleConfigurator.swift; sourceTree = "<group>"; };
+		BD5E6040C043132314EDD106 /* Pods-ViperMCFSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperMCFSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViperMCFSwift/Pods-ViperMCFSwift.release.xcconfig"; sourceTree = "<group>"; };
 		CE6FC9269040919A2C1465DE /* SecondModuleInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SecondModuleInteractorInput.swift; sourceTree = "<group>"; };
 		D260323C81B0A0F3ED4C9F36 /* SecondModuleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SecondModuleConfigurator.swift; sourceTree = "<group>"; };
 		D39CE58C587494694C94C9BA /* FisrtModuleModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FisrtModuleModuleInput.swift; sourceTree = "<group>"; };
@@ -142,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				5CF411F76BD6F592D9C1022E /* Pods-ViperMCFSwift.debug.xcconfig */,
+				BD5E6040C043132314EDD106 /* Pods-ViperMCFSwift.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -392,7 +394,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = WebAnt;
+				ORGANIZATIONNAME = gnatok;
 				TargetAttributes = {
 					861E33551D3524DC00AD82C8 = {
 						CreatedOnToolsVersion = 7.3.1;

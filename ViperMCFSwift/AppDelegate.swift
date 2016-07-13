@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  ViperMCFSwift
 //
-//  Created by Владислав on 12.07.16.
-//  Copyright © 2016 WebAnt. All rights reserved.
+//  Created by gnatok on 13.07.16.
+//  Copyright © 2016 gnatok. All rights reserved.
 //
 
 import UIKit

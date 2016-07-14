@@ -1,5 +1,5 @@
 //
-//  SecondModuleSecondModuleModuleInput.swift
+//  SecondModuleModuleInput.swift
 //  ViperMCFSwift
 //
 //  Created by gnatok on 14/07/2016.

@@ -28,6 +28,9 @@ class FirstModuleConfigurator {
 
         let interactor = FirstModuleInteractor()
         interactor.output = presenter
+        //interactor.imageLoader
+        //interactor.VideoPlayer
+        //interactor.yaTuSabes
 
         presenter.interactor = interactor
         viewController.output = presenter

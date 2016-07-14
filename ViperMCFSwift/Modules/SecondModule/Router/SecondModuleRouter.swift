@@ -6,5 +6,8 @@
 //  Copyright © 2016 gnatok. All rights reserved.
 //
 
+import ViperMcFlurry
 
-class SecondModuleRouter: SecondModuleRouterInput { }
+class SecondModuleRouter: NSObject, SecondModuleRouterInput {
+    var transitionHandler: RamblerViperModuleTransitionHandlerProtocol!
+}

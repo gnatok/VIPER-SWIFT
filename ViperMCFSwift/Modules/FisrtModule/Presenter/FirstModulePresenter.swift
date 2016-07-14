@@ -5,7 +5,6 @@
 //  Created by gnatok on 14/07/2016.
 //  Copyright © 2016 gnatok. All rights reserved.
 //
-
 class FirstModulePresenter: FirstModuleModuleInput, FirstModuleViewOutput, FirstModuleInteractorOutput {
 
     weak var view: FirstModuleViewInput!
@@ -19,7 +18,6 @@ class FirstModulePresenter: FirstModuleModuleInput, FirstModuleViewOutput, First
             self?.router.openSecondModuleWithExampleString(data)
         }
     }
-    
     
     func instantiateThirdModule() {
         view.getDataWithResultBlock { [weak self] (data) in

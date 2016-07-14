@@ -13,7 +13,7 @@ class SecondModulePresenter: NSObject, SecondModuleModuleInput, SecondModuleView
     weak var view: SecondModuleViewInput!
     var interactor: SecondModuleInteractorInput!
     var router: SecondModuleRouterInput!
-    
+
     var exampleString: String?
 
     func viewIsReady() {

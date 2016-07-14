@@ -1,27 +1,31 @@
 //
-//  FisrtModuleFisrtModuleViewController.swift
+//  FirstModuleViewController.swift
 //  ViperMCFSwift
 //
-//  Created by SpectralDragon on 12/07/2016.
+//  Created by gnatok on 14/07/2016.
 //  Copyright © 2016 gnatok. All rights reserved.
 //
 
 import UIKit
 
-class FisrtModuleViewController: UIViewController, FisrtModuleViewInput {
+class FirstModuleViewController: UIViewController, FirstModuleViewInput {
 
     @IBOutlet weak var textField: UITextField!
     
-    var output: FisrtModuleViewOutput!
+    var output: FirstModuleViewOutput!
     
     // MARK: Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         output.viewIsReady()
     }
+    
+    func setupInitialState() {
+    
+    }
 
 
-    // MARK: FisrtModuleViewInput
+    // MARK: FirstModuleViewInput
     func getDataWithResultBlock(resultBlock: DataResultBlock) {
         resultBlock(data: textField.text!)
     }

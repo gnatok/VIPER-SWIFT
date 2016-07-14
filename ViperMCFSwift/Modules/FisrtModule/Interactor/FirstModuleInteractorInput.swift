@@ -1,5 +1,5 @@
 //
-//  SecondModuleSecondModuleInteractorOutput.swift
+//  FirstModuleInteractorInput.swift
 //  ViperMCFSwift
 //
 //  Created by gnatok on 14/07/2016.
@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol SecondModuleInteractorOutput: class {
+protocol FirstModuleInteractorInput {
 
 }

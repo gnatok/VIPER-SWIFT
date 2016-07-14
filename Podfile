@@ -15,4 +15,5 @@ end
 
 target 'ViperMCFSwiftTests' do
     testing_pods
+    pod 'ViperMcFlurry', :git => 'git@github.com:rambler-ios/ViperMcFlurry.git', :branch => 'master'
 end

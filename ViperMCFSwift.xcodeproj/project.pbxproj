@@ -8,39 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		013BED803F37C84DBA2E2DA2 /* Pods_ViperMCFSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91448E45BE99210F120D154F /* Pods_ViperMCFSwift.framework */; };
-		02AC0DB2B58E5D385CE5E92D /* FisrtModuleViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF95806452565FD8A7FAD0B /* FisrtModuleViewOutput.swift */; };
+		02AC0DB2B58E5D385CE5E92D /* FirstModuleViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF95806452565FD8A7FAD0B /* FirstModuleViewOutput.swift */; };
 		161EFEFE5AF92F80BF2C9067 /* SecondModuleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A81BC986C53D3D0FCD7EA63 /* SecondModuleInteractor.swift */; };
 		1D755DAC450803302933F11A /* SecondModuleViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D68FDC662A34434E98B49B3 /* SecondModuleViewInput.swift */; };
-		1F361F42FA060D89A2C3C2E9 /* FisrtModuleInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4492BFD45D33EC6C2FA1210F /* FisrtModuleInitializer.swift */; };
+		1F361F42FA060D89A2C3C2E9 /* FirstModuleInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4492BFD45D33EC6C2FA1210F /* FirstModuleInitializer.swift */; };
 		2AD965D7A7AF5AA15D65F822 /* ThirdModuleInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553C07D330ED2B2B94EB706E /* ThirdModuleInitializer.swift */; };
 		38DAF27220F0C6D713FB5F97 /* ThirdModuleModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4821B2C4AEFB14676875FC /* ThirdModuleModuleInput.swift */; };
 		481EB67CB5B0ECBEE5D9E5E8 /* SecondModuleViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58A887D4BA95BC6409DF680 /* SecondModuleViewOutput.swift */; };
-		484C08A486BB051454A6E587 /* FisrtModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F4D7A1FF9BDFD3F1EF0F67 /* FisrtModuleConfigurator.swift */; };
-		4BFA267440B04656815411F7 /* FisrtModuleModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39CE58C587494694C94C9BA /* FisrtModuleModuleInput.swift */; };
+		484C08A486BB051454A6E587 /* FirstModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F4D7A1FF9BDFD3F1EF0F67 /* FirstModuleConfigurator.swift */; };
+		4BFA267440B04656815411F7 /* FirstModuleModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39CE58C587494694C94C9BA /* FirstModuleModuleInput.swift */; };
 		6A3C44042D585887D46EA72E /* SecondModuleModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E214C05D787639A7B2ECF8 /* SecondModuleModuleInput.swift */; };
 		6FA3647CF0EEF208AAA5CB60 /* SecondModuleInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6FC9269040919A2C1465DE /* SecondModuleInteractorInput.swift */; };
 		7359122C57CCD21E4F395731 /* ThirdModuleRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEA947116ACFE4E4A35A30E /* ThirdModuleRouterInput.swift */; };
 		7974A016C7AF527E5EA3E5F3 /* ThirdModuleInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79168F6179CEB6947467C686 /* ThirdModuleInteractorOutput.swift */; };
-		7D76CAF67E203D086FBE7465 /* FisrtModuleRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6721517DE83E19CBCA64808 /* FisrtModuleRouterInput.swift */; };
+		7D76CAF67E203D086FBE7465 /* FirstModuleRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6721517DE83E19CBCA64808 /* FirstModuleRouterInput.swift */; };
 		8186544F273EE4E9F745A298 /* ThirdModuleInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884754E2DA2FC3608B5D86BA /* ThirdModuleInteractorInput.swift */; };
 		861E335A1D3524DC00AD82C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861E33591D3524DC00AD82C8 /* AppDelegate.swift */; };
 		861E335F1D3524DC00AD82C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861E335D1D3524DC00AD82C8 /* Main.storyboard */; };
 		861E33611D3524DC00AD82C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 861E33601D3524DC00AD82C8 /* Assets.xcassets */; };
 		861E33641D3524DC00AD82C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861E33621D3524DC00AD82C8 /* LaunchScreen.storyboard */; };
-		8B750F0699F2A953F4EACF46 /* FisrtModuleInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB08E590238149C7BBF41D /* FisrtModuleInteractorInput.swift */; };
+		8B750F0699F2A953F4EACF46 /* FirstModuleInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB08E590238149C7BBF41D /* FirstModuleInteractorInput.swift */; };
 		921F2E89C10C8AA52B45009F /* SecondModuleInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48151DFF3EBE24545A215032 /* SecondModuleInteractorOutput.swift */; };
-		92759F1B267BDCA8A0050681 /* FisrtModuleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D0810C418A97DA29D02698 /* FisrtModuleInteractor.swift */; };
+		92759F1B267BDCA8A0050681 /* FirstModuleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D0810C418A97DA29D02698 /* FirstModuleInteractor.swift */; };
 		AE8F964B127E42E704B3593C /* ThirdModuleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121CCD0D6BB9259C93258FF5 /* ThirdModuleInteractor.swift */; };
-		AFE341EB05958730B091BBE8 /* FisrtModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA12BD6CA462E0857F78825 /* FisrtModulePresenter.swift */; };
+		AFE341EB05958730B091BBE8 /* FirstModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA12BD6CA462E0857F78825 /* FirstModulePresenter.swift */; };
 		B55535655555CC076578A822 /* ThirdModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C7599763FD4EDDBF4C4EE9 /* ThirdModulePresenter.swift */; };
-		B6E23A543623C32030D9F4DB /* FisrtModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0E3BFF9D89C1FBD8FCCF31 /* FisrtModuleViewController.swift */; };
+		B6E23A543623C32030D9F4DB /* FirstModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0E3BFF9D89C1FBD8FCCF31 /* FirstModuleViewController.swift */; };
 		B8F9CEEC938AE9C954FB7251 /* ThirdModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4211CED17DA41D4467BA50D4 /* ThirdModuleConfigurator.swift */; };
 		C0A49DCB33CCF662A0ADA6EE /* ThirdModuleViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70075D78C9E710A3458884BC /* ThirdModuleViewInput.swift */; };
 		CD6053C759EE263EC5BACD25 /* Pods_ViperMCFSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5F0AA61F92CAE1C015924F /* Pods_ViperMCFSwiftTests.framework */; };
-		CE9746BE3F53E50752D4763F /* FisrtModuleInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF9680D7D8AA933F06065B0 /* FisrtModuleInteractorOutput.swift */; };
+		CE9746BE3F53E50752D4763F /* FirstModuleInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF9680D7D8AA933F06065B0 /* FirstModuleInteractorOutput.swift */; };
 		D4432D9577518BD94942FA3E /* SecondModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D260323C81B0A0F3ED4C9F36 /* SecondModuleConfigurator.swift */; };
-		D53925F2B67458A3B957F8C2 /* FisrtModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF7CF5051565335EE408993 /* FisrtModuleRouter.swift */; };
+		D53925F2B67458A3B957F8C2 /* FirstModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF7CF5051565335EE408993 /* FirstModuleRouter.swift */; };
 		DA389D6E1D3770A7004E7252 /* ViperMCFSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA389D6D1D3770A7004E7252 /* ViperMCFSwiftTests.swift */; };
+		DA8ADFD71D3779BE0049DA61 /* FirstViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8ADFD61D3779BE0049DA61 /* FirstViewTests.swift */; };
+		DA8ADFD91D3779F10049DA61 /* FirstInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8ADFD81D3779F10049DA61 /* FirstInteractorTests.swift */; };
+		DA8ADFDB1D377A080049DA61 /* FirstConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8ADFDA1D377A080049DA61 /* FirstConfiguratorTests.swift */; };
+		DA8ADFDD1D377A190049DA61 /* FirstPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8ADFDC1D377A190049DA61 /* FirstPresenterTests.swift */; };
+		DA8ADFDF1D377A270049DA61 /* FirstRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8ADFDE1D377A270049DA61 /* FirstRouterTests.swift */; };
 		DCE5E0CD6CCA0CD9A4A52F80 /* SecondModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A644D1704027BD9DD9D11401 /* SecondModuleRouter.swift */; };
 		DD090197469380B7A8E7AE27 /* ThirdModuleViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82155F612B21B9187562ED52 /* ThirdModuleViewOutput.swift */; };
 		DED05954D6D2F700153D866C /* ThirdModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9101F9F79DCCABF5C24CA7E0 /* ThirdModuleViewController.swift */; };
@@ -48,7 +53,7 @@
 		E7E3E12DB06582F31676B6FD /* ThirdModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4C69E3507F82DD72E3A301 /* ThirdModuleRouter.swift */; };
 		EA51B59D9DB7A7DB240CF08A /* SecondModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1945F4942F460C42F04393E1 /* SecondModuleViewController.swift */; };
 		F0A9D4C68383886469AA0BA1 /* SecondModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1626DDEFD2BBDA8A62A8F64B /* SecondModulePresenter.swift */; };
-		F0E24D450F86A67E0167232D /* FisrtModuleViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31602E47F5B86BB7498AE2CD /* FisrtModuleViewInput.swift */; };
+		F0E24D450F86A67E0167232D /* FirstModuleViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31602E47F5B86BB7498AE2CD /* FirstModuleViewInput.swift */; };
 		F8176259DB9BB16075EA675C /* SecondModuleInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6104F07A27CD7A4EA5D9548A /* SecondModuleInitializer.swift */; };
 /* End PBXBuildFile section */
 
@@ -67,23 +72,23 @@
 		121CCD0D6BB9259C93258FF5 /* ThirdModuleInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThirdModuleInteractor.swift; sourceTree = "<group>"; };
 		1626DDEFD2BBDA8A62A8F64B /* SecondModulePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SecondModulePresenter.swift; sourceTree = "<group>"; };
 		1945F4942F460C42F04393E1 /* SecondModuleViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SecondModuleViewController.swift; sourceTree = "<group>"; };
-		2ECB08E590238149C7BBF41D /* FisrtModuleInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FisrtModuleInteractorInput.swift; sourceTree = "<group>"; };
-		31602E47F5B86BB7498AE2CD /* FisrtModuleViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FisrtModuleViewInput.swift; sourceTree = "<group>"; };
+		2ECB08E590238149C7BBF41D /* FirstModuleInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FirstModuleInteractorInput.swift; sourceTree = "<group>"; };
+		31602E47F5B86BB7498AE2CD /* FirstModuleViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FirstModuleViewInput.swift; sourceTree = "<group>"; };
 		3B4821B2C4AEFB14676875FC /* ThirdModuleModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThirdModuleModuleInput.swift; sourceTree = "<group>"; };
 		4211CED17DA41D4467BA50D4 /* ThirdModuleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThirdModuleConfigurator.swift; sourceTree = "<group>"; };
-		4492BFD45D33EC6C2FA1210F /* FisrtModuleInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FisrtModuleInitializer.swift; sourceTree = "<group>"; };
+		4492BFD45D33EC6C2FA1210F /* FirstModuleInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FirstModuleInitializer.swift; sourceTree = "<group>"; };
 		48151DFF3EBE24545A215032 /* SecondModuleInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SecondModuleInteractorOutput.swift; sourceTree = "<group>"; };
-		4FF9680D7D8AA933F06065B0 /* FisrtModuleInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FisrtModuleInteractorOutput.swift; sourceTree = "<group>"; };
+		4FF9680D7D8AA933F06065B0 /* FirstModuleInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FirstModuleInteractorOutput.swift; sourceTree = "<group>"; };
 		553C07D330ED2B2B94EB706E /* ThirdModuleInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThirdModuleInitializer.swift; sourceTree = "<group>"; };
 		5CF411F76BD6F592D9C1022E /* Pods-ViperMCFSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperMCFSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViperMCFSwift/Pods-ViperMCFSwift.debug.xcconfig"; sourceTree = "<group>"; };
-		5EA12BD6CA462E0857F78825 /* FisrtModulePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FisrtModulePresenter.swift; sourceTree = "<group>"; };
+		5EA12BD6CA462E0857F78825 /* FirstModulePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FirstModulePresenter.swift; sourceTree = "<group>"; };
 		6104F07A27CD7A4EA5D9548A /* SecondModuleInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SecondModuleInitializer.swift; sourceTree = "<group>"; };
 		6D68FDC662A34434E98B49B3 /* SecondModuleViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SecondModuleViewInput.swift; sourceTree = "<group>"; };
-		6DF7CF5051565335EE408993 /* FisrtModuleRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FisrtModuleRouter.swift; sourceTree = "<group>"; };
+		6DF7CF5051565335EE408993 /* FirstModuleRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FirstModuleRouter.swift; sourceTree = "<group>"; };
 		70075D78C9E710A3458884BC /* ThirdModuleViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThirdModuleViewInput.swift; sourceTree = "<group>"; };
 		79168F6179CEB6947467C686 /* ThirdModuleInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThirdModuleInteractorOutput.swift; sourceTree = "<group>"; };
 		7A81BC986C53D3D0FCD7EA63 /* SecondModuleInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SecondModuleInteractor.swift; sourceTree = "<group>"; };
-		7BF95806452565FD8A7FAD0B /* FisrtModuleViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FisrtModuleViewOutput.swift; sourceTree = "<group>"; };
+		7BF95806452565FD8A7FAD0B /* FirstModuleViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FirstModuleViewOutput.swift; sourceTree = "<group>"; };
 		82155F612B21B9187562ED52 /* ThirdModuleViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThirdModuleViewOutput.swift; sourceTree = "<group>"; };
 		861E33561D3524DC00AD82C8 /* ViperMCFSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperMCFSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		861E33591D3524DC00AD82C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -92,27 +97,32 @@
 		861E33631D3524DC00AD82C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		861E33651D3524DC00AD82C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		884754E2DA2FC3608B5D86BA /* ThirdModuleInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThirdModuleInteractorInput.swift; sourceTree = "<group>"; };
-		8D0E3BFF9D89C1FBD8FCCF31 /* FisrtModuleViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FisrtModuleViewController.swift; sourceTree = "<group>"; };
+		8D0E3BFF9D89C1FBD8FCCF31 /* FirstModuleViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FirstModuleViewController.swift; sourceTree = "<group>"; };
 		9101F9F79DCCABF5C24CA7E0 /* ThirdModuleViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThirdModuleViewController.swift; sourceTree = "<group>"; };
 		91448E45BE99210F120D154F /* Pods_ViperMCFSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViperMCFSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		96D0810C418A97DA29D02698 /* FisrtModuleInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FisrtModuleInteractor.swift; sourceTree = "<group>"; };
+		96D0810C418A97DA29D02698 /* FirstModuleInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FirstModuleInteractor.swift; sourceTree = "<group>"; };
 		98D0B977657D55537435AA59 /* Pods-ViperMCFSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperMCFSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViperMCFSwiftTests/Pods-ViperMCFSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		9E26C91EBF5B83EDEC2D126B /* SecondModuleRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SecondModuleRouterInput.swift; sourceTree = "<group>"; };
 		A4C7599763FD4EDDBF4C4EE9 /* ThirdModulePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThirdModulePresenter.swift; sourceTree = "<group>"; };
 		A644D1704027BD9DD9D11401 /* SecondModuleRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SecondModuleRouter.swift; sourceTree = "<group>"; };
 		AE4C69E3507F82DD72E3A301 /* ThirdModuleRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThirdModuleRouter.swift; sourceTree = "<group>"; };
-		B5F4D7A1FF9BDFD3F1EF0F67 /* FisrtModuleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FisrtModuleConfigurator.swift; sourceTree = "<group>"; };
+		B5F4D7A1FF9BDFD3F1EF0F67 /* FirstModuleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FirstModuleConfigurator.swift; sourceTree = "<group>"; };
 		BD5E6040C043132314EDD106 /* Pods-ViperMCFSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperMCFSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViperMCFSwift/Pods-ViperMCFSwift.release.xcconfig"; sourceTree = "<group>"; };
 		CE6FC9269040919A2C1465DE /* SecondModuleInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SecondModuleInteractorInput.swift; sourceTree = "<group>"; };
 		D260323C81B0A0F3ED4C9F36 /* SecondModuleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SecondModuleConfigurator.swift; sourceTree = "<group>"; };
-		D39CE58C587494694C94C9BA /* FisrtModuleModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FisrtModuleModuleInput.swift; sourceTree = "<group>"; };
+		D39CE58C587494694C94C9BA /* FirstModuleModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FirstModuleModuleInput.swift; sourceTree = "<group>"; };
 		D58A887D4BA95BC6409DF680 /* SecondModuleViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SecondModuleViewOutput.swift; sourceTree = "<group>"; };
 		D69E0377D5DAABF53133AAA0 /* Pods-ViperMCFSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperMCFSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViperMCFSwiftTests/Pods-ViperMCFSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D6EEFCAA195BF036B493387C /* Pods-ViperMCFSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperMCFSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViperMCFSwift/Pods-ViperMCFSwift.release.xcconfig"; sourceTree = "<group>"; };
 		DA389D6B1D3770A7004E7252 /* ViperMCFSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViperMCFSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA389D6D1D3770A7004E7252 /* ViperMCFSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperMCFSwiftTests.swift; sourceTree = "<group>"; };
 		DA389D6F1D3770A7004E7252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E6721517DE83E19CBCA64808 /* FisrtModuleRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FisrtModuleRouterInput.swift; sourceTree = "<group>"; };
+		DA8ADFD61D3779BE0049DA61 /* FirstViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewTests.swift; path = ViperMCFSwiftTests/Specs/Modules/Login/View/FirstViewTests.swift; sourceTree = SOURCE_ROOT; };
+		DA8ADFD81D3779F10049DA61 /* FirstInteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstInteractorTests.swift; path = ViperMCFSwiftTests/Specs/Modules/Login/Interactor/FirstInteractorTests.swift; sourceTree = SOURCE_ROOT; };
+		DA8ADFDA1D377A080049DA61 /* FirstConfiguratorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstConfiguratorTests.swift; path = ViperMCFSwiftTests/Specs/Modules/Login/Configurator/FirstConfiguratorTests.swift; sourceTree = SOURCE_ROOT; };
+		DA8ADFDC1D377A190049DA61 /* FirstPresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstPresenterTests.swift; path = ViperMCFSwiftTests/Specs/Modules/Login/Presenter/FirstPresenterTests.swift; sourceTree = SOURCE_ROOT; };
+		DA8ADFDE1D377A270049DA61 /* FirstRouterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstRouterTests.swift; path = ViperMCFSwiftTests/Specs/Modules/Login/Router/FirstRouterTests.swift; sourceTree = SOURCE_ROOT; };
+		E6721517DE83E19CBCA64808 /* FirstModuleRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FirstModuleRouterInput.swift; sourceTree = "<group>"; };
 		ED5F0AA61F92CAE1C015924F /* Pods_ViperMCFSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViperMCFSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDEA947116ACFE4E4A35A30E /* ThirdModuleRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThirdModuleRouterInput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,14 +147,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AECC1EBD26D2536DE4D027E /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				DA8ADFDE1D377A270049DA61 /* FirstRouterTests.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		0EA4F4516145DE27431375BF /* FirstModule */ = {
+			isa = PBXGroup;
+			children = (
+				E53866188BFD71B093317878 /* Configurator */,
+				245F5EA6E2AB126337B80F9E /* View */,
+				DD1CA8945601FD1FDF556F75 /* Interactor */,
+				8FB1ECDB1F33B9BAED3144AD /* Presenter */,
+				0AECC1EBD26D2536DE4D027E /* Router */,
+			);
+			name = FirstModule;
+			path = Login;
+			sourceTree = "<group>";
+		};
 		2262A5E638A1C80D4790EAC7 /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
-				2ECB08E590238149C7BBF41D /* FisrtModuleInteractorInput.swift */,
-				4FF9680D7D8AA933F06065B0 /* FisrtModuleInteractorOutput.swift */,
-				96D0810C418A97DA29D02698 /* FisrtModuleInteractor.swift */,
+				2ECB08E590238149C7BBF41D /* FirstModuleInteractorInput.swift */,
+				4FF9680D7D8AA933F06065B0 /* FirstModuleInteractorOutput.swift */,
+				96D0810C418A97DA29D02698 /* FirstModuleInteractor.swift */,
 			);
 			path = Interactor;
+			sourceTree = "<group>";
+		};
+		245F5EA6E2AB126337B80F9E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DA8ADFD61D3779BE0049DA61 /* FirstViewTests.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		3088354C213C318B6D670D99 /* Router */ = {
@@ -159,8 +198,8 @@
 		319AFEC0381D18C22AC72042 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				D39CE58C587494694C94C9BA /* FisrtModuleModuleInput.swift */,
-				5EA12BD6CA462E0857F78825 /* FisrtModulePresenter.swift */,
+				D39CE58C587494694C94C9BA /* FirstModuleModuleInput.swift */,
+				5EA12BD6CA462E0857F78825 /* FirstModulePresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -176,7 +215,7 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		390ECD710D0714787E78BAF1 /* FisrtModule */ = {
+		390ECD710D0714787E78BAF1 /* FirstModule */ = {
 			isa = PBXGroup;
 			children = (
 				C9A9CD6DC1E94A36572B9535 /* View */,
@@ -185,6 +224,7 @@
 				677E1B77265D702CB4158E3E /* Router */,
 				BD4B4C171095CF8EDAC44746 /* Configurator */,
 			);
+			name = FirstModule;
 			path = FisrtModule;
 			sourceTree = "<group>";
 		};
@@ -220,7 +260,7 @@
 		63B9AD650FB88B8D276BF680 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				390ECD710D0714787E78BAF1 /* FisrtModule */,
+				390ECD710D0714787E78BAF1 /* FirstModule */,
 				7E0F0DDF9E05A1286EC10D88 /* SecondModule */,
 				9D9EC5D761AF2A8C76135613 /* ThirdModule */,
 			);
@@ -230,8 +270,8 @@
 		677E1B77265D702CB4158E3E /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				E6721517DE83E19CBCA64808 /* FisrtModuleRouterInput.swift */,
-				6DF7CF5051565335EE408993 /* FisrtModuleRouter.swift */,
+				E6721517DE83E19CBCA64808 /* FirstModuleRouterInput.swift */,
+				6DF7CF5051565335EE408993 /* FirstModuleRouter.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -316,6 +356,14 @@
 			path = Presenter;
 			sourceTree = "<group>";
 		};
+		8FB1ECDB1F33B9BAED3144AD /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DA8ADFDC1D377A190049DA61 /* FirstPresenterTests.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		9D9EC5D761AF2A8C76135613 /* ThirdModule */ = {
 			isa = PBXGroup;
 			children = (
@@ -360,8 +408,8 @@
 		BD4B4C171095CF8EDAC44746 /* Configurator */ = {
 			isa = PBXGroup;
 			children = (
-				B5F4D7A1FF9BDFD3F1EF0F67 /* FisrtModuleConfigurator.swift */,
-				4492BFD45D33EC6C2FA1210F /* FisrtModuleInitializer.swift */,
+				B5F4D7A1FF9BDFD3F1EF0F67 /* FirstModuleConfigurator.swift */,
+				4492BFD45D33EC6C2FA1210F /* FirstModuleInitializer.swift */,
 			);
 			path = Configurator;
 			sourceTree = "<group>";
@@ -378,9 +426,9 @@
 		C9A9CD6DC1E94A36572B9535 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				31602E47F5B86BB7498AE2CD /* FisrtModuleViewInput.swift */,
-				7BF95806452565FD8A7FAD0B /* FisrtModuleViewOutput.swift */,
-				8D0E3BFF9D89C1FBD8FCCF31 /* FisrtModuleViewController.swift */,
+				31602E47F5B86BB7498AE2CD /* FirstModuleViewInput.swift */,
+				7BF95806452565FD8A7FAD0B /* FirstModuleViewOutput.swift */,
+				8D0E3BFF9D89C1FBD8FCCF31 /* FirstModuleViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -408,21 +456,9 @@
 			children = (
 				DA389D791D377430004E7252 /* ThirdModule */,
 				DA389D781D377423004E7252 /* SecondModule */,
-				DA389D771D377418004E7252 /* FirstModule */,
+				0EA4F4516145DE27431375BF /* FirstModule */,
 			);
 			name = Modules;
-			sourceTree = "<group>";
-		};
-		DA389D771D377418004E7252 /* FirstModule */ = {
-			isa = PBXGroup;
-			children = (
-				DA389D831D3774D3004E7252 /* Configurator */,
-				DA389D821D3774C8004E7252 /* Interactor */,
-				DA389D811D3774BE004E7252 /* Router */,
-				DA389D801D3774B5004E7252 /* Presenter */,
-				DA389D7F1D3774AC004E7252 /* View */,
-			);
-			name = FirstModule;
 			sourceTree = "<group>";
 		};
 		DA389D781D377423004E7252 /* SecondModule */ = {
@@ -479,41 +515,6 @@
 			name = Configurator;
 			sourceTree = "<group>";
 		};
-		DA389D7F1D3774AC004E7252 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		DA389D801D3774B5004E7252 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Presenter;
-			sourceTree = "<group>";
-		};
-		DA389D811D3774BE004E7252 /* Router */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Router;
-			sourceTree = "<group>";
-		};
-		DA389D821D3774C8004E7252 /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Interactor;
-			sourceTree = "<group>";
-		};
-		DA389D831D3774D3004E7252 /* Configurator */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Configurator;
-			sourceTree = "<group>";
-		};
 		DB3EB7F768217A7BCA76BCB0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -521,6 +522,22 @@
 				ED5F0AA61F92CAE1C015924F /* Pods_ViperMCFSwiftTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD1CA8945601FD1FDF556F75 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				DA8ADFD81D3779F10049DA61 /* FirstInteractorTests.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		E53866188BFD71B093317878 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				DA8ADFDA1D377A080049DA61 /* FirstConfiguratorTests.swift */,
+			);
+			path = Configurator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -724,18 +741,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				861E335A1D3524DC00AD82C8 /* AppDelegate.swift in Sources */,
-				F0E24D450F86A67E0167232D /* FisrtModuleViewInput.swift in Sources */,
-				02AC0DB2B58E5D385CE5E92D /* FisrtModuleViewOutput.swift in Sources */,
-				B6E23A543623C32030D9F4DB /* FisrtModuleViewController.swift in Sources */,
-				4BFA267440B04656815411F7 /* FisrtModuleModuleInput.swift in Sources */,
-				AFE341EB05958730B091BBE8 /* FisrtModulePresenter.swift in Sources */,
-				8B750F0699F2A953F4EACF46 /* FisrtModuleInteractorInput.swift in Sources */,
-				CE9746BE3F53E50752D4763F /* FisrtModuleInteractorOutput.swift in Sources */,
-				92759F1B267BDCA8A0050681 /* FisrtModuleInteractor.swift in Sources */,
-				7D76CAF67E203D086FBE7465 /* FisrtModuleRouterInput.swift in Sources */,
-				D53925F2B67458A3B957F8C2 /* FisrtModuleRouter.swift in Sources */,
-				484C08A486BB051454A6E587 /* FisrtModuleConfigurator.swift in Sources */,
-				1F361F42FA060D89A2C3C2E9 /* FisrtModuleInitializer.swift in Sources */,
+				F0E24D450F86A67E0167232D /* FirstModuleViewInput.swift in Sources */,
+				02AC0DB2B58E5D385CE5E92D /* FirstModuleViewOutput.swift in Sources */,
+				B6E23A543623C32030D9F4DB /* FirstModuleViewController.swift in Sources */,
+				4BFA267440B04656815411F7 /* FirstModuleModuleInput.swift in Sources */,
+				AFE341EB05958730B091BBE8 /* FirstModulePresenter.swift in Sources */,
+				8B750F0699F2A953F4EACF46 /* FirstModuleInteractorInput.swift in Sources */,
+				CE9746BE3F53E50752D4763F /* FirstModuleInteractorOutput.swift in Sources */,
+				92759F1B267BDCA8A0050681 /* FirstModuleInteractor.swift in Sources */,
+				7D76CAF67E203D086FBE7465 /* FirstModuleRouterInput.swift in Sources */,
+				D53925F2B67458A3B957F8C2 /* FirstModuleRouter.swift in Sources */,
+				484C08A486BB051454A6E587 /* FirstModuleConfigurator.swift in Sources */,
+				1F361F42FA060D89A2C3C2E9 /* FirstModuleInitializer.swift in Sources */,
 				1D755DAC450803302933F11A /* SecondModuleViewInput.swift in Sources */,
 				481EB67CB5B0ECBEE5D9E5E8 /* SecondModuleViewOutput.swift in Sources */,
 				EA51B59D9DB7A7DB240CF08A /* SecondModuleViewController.swift in Sources */,
@@ -768,6 +785,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA389D6E1D3770A7004E7252 /* ViperMCFSwiftTests.swift in Sources */,
+				DA8ADFDD1D377A190049DA61 /* FirstPresenterTests.swift in Sources */,
+				DA8ADFD91D3779F10049DA61 /* FirstInteractorTests.swift in Sources */,
+				DA8ADFDB1D377A080049DA61 /* FirstConfiguratorTests.swift in Sources */,
+				DA8ADFD71D3779BE0049DA61 /* FirstViewTests.swift in Sources */,
+				DA8ADFDF1D377A270049DA61 /* FirstRouterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

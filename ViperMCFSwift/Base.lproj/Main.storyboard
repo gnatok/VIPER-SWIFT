@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--Fisrtmodule View Controller-->
+        <!--Firstmodule View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="firstModuleController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="FisrtModuleViewController" customModule="ViperMCFSwift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="firstModuleController" storyboardIdentifier="firstModuleController" id="BYZ-38-t0r" customClass="FirstModuleViewController" customModule="ViperMCFSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -56,9 +56,9 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <customObject id="Stf-a4-cxF" customClass="FisrtModuleModuleInitializer" customModule="ViperMCFSwift" customModuleProvider="target">
+                <customObject id="Stf-a4-cxF" customClass="FirstModuleModuleInitializer" customModule="ViperMCFSwift" customModuleProvider="target">
                     <connections>
-                        <outlet property="fisrtmoduleViewController" destination="BYZ-38-t0r" id="P83-lg-Nyi"/>
+                        <outlet property="FirstmoduleViewController" destination="BYZ-38-t0r" id="psS-Im-cjL"/>
                     </connections>
                 </customObject>
             </objects>
@@ -117,7 +117,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8YN-Iq-Cbs">
                                 <rect key="frame" x="20" y="289" width="560" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>

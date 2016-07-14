@@ -1,15 +1,15 @@
 //
-//  FisrtModuleFisrtModuleRouter.swift
+//  FirstModuleRouter.swift
 //  ViperMCFSwift
 //
-//  Created by SpectralDragon on 12/07/2016.
+//  Created by gnatok on 14/07/2016.
 //  Copyright © 2016 gnatok. All rights reserved.
 //
 
 import ViperMcFlurry
 import Foundation
 
-class FisrtModuleRouter: NSObject, FisrtModuleRouterInput {
+class FirstModuleRouter: NSObject, FirstModuleRouterInput {
     
     let mainStoryBoard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
     let segueIdentifier = "detailSecondSegue"

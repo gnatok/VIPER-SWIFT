@@ -105,7 +105,7 @@
         <!--Secondmodule View Controller-->
         <scene sceneID="I9m-pE-jj2">
             <objects>
-                <viewController restorationIdentifier="secondModuleController" storyboardIdentifier="secondModuleController" id="Luh-0b-HN1" customClass="SecondModuleViewController" customModule="ViperMCFSwift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="secondModuleController" id="Luh-0b-HN1" customClass="SecondModuleViewController" customModule="ViperMCFSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tKi-uU-Hcc"/>
                         <viewControllerLayoutGuide type="bottom" id="ctG-6c-cWV"/>

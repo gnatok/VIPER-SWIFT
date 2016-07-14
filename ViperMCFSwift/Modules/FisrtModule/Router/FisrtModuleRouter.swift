@@ -22,7 +22,6 @@ class FisrtModuleRouter: NSObject, FisrtModuleRouterInput {
         return factory
     }
 
-    
     func openSecondModuleWithExampleString(data: String) {
         transitionHandler.openModuleUsingSegue!(segueIdentifier).thenChainUsingBlock { moduleInput in
             

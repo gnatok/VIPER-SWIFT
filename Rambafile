@@ -15,6 +15,16 @@ project_file_path: ViperMCFSwift/Modules
 # The Xcode group path to new modules
 project_group_path: ViperMCFSwift/Modules
 
+### Tests generation settings section
+# The tests target name
+test_target: ViperMCFSwiftTests
+
+# The file path for new tests
+test_file_path: ViperMCFSwiftTests/Specs/Modules
+
+# The Xcode group path to new tests
+test_group_path: ViperMCFSwiftTests/Specs/Modules
+
 ### Dependencies settings section
 podfile_path: Podfile
 

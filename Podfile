@@ -4,8 +4,8 @@
  use_frameworks!
 
 def testing_pods
-    pod 'Quick'
-    pod 'Nimble'
+    pod 'Quick', :git => "git@github.com:norio-nomura/Quick.git", :branch => "nn-swift-3-compatibility"
+    pod 'Nimble', :git => "git@github.com:norio-nomura/Nimble.git", :branch => "nn-swift-3-compatibility"
 end
 
 target 'ViperMCFSwift' do

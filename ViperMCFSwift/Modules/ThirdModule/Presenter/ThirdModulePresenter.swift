@@ -17,7 +17,7 @@ class ThirdModulePresenter: NSObject, ThirdModuleModuleInput, ThirdModuleViewOut
     var exampleString: String?
     
     func viewIsReady() {
-        view.setExampleString(exampleString!)
+        view.setExampleString(data: exampleString!)
     }
     
     func configureWithExampleString(data: String) {

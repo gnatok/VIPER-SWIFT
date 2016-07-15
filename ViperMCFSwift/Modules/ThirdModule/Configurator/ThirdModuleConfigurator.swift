@@ -13,7 +13,7 @@ class ThirdModuleModuleConfigurator {
     func configureModuleForViewInput<UIViewController>(viewInput: UIViewController) {
 
         if let viewController = viewInput as? ThirdModuleViewController {
-            configure(viewController)
+            configure(viewController: viewController)
         }
     }
 

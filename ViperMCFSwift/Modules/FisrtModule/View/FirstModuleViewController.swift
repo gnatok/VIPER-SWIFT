@@ -34,12 +34,12 @@ class FirstModuleViewController: UIViewController, FirstModuleViewInput {
         textField.text = text
     }
     
-    @IBAction func didClickSendDataButton(sender: UIButton) {
+    @IBAction func didClickDataButton(_ sender: AnyObject) {
         textField.resignFirstResponder()
         output.sendDataButtonClicled()
     }
     
-    @IBAction func didClickInstantiateThirdModule(sender: AnyObject) {
+    @IBAction func didClickInstantiateThirdModule(_ sender: AnyObject) {
         textField.resignFirstResponder()
         output.instantiateThirdModule()
     }

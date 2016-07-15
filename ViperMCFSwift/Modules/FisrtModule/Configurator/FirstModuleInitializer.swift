@@ -15,7 +15,7 @@ class FirstModuleModuleInitializer: NSObject {
 
     override func awakeFromNib() {
         let configurator = FirstModuleConfigurator()
-        configurator.configureModuleForViewInput(FirstmoduleViewController)
+        configurator.configureModuleForViewInput(viewInput: FirstmoduleViewController)
     }
 
 }

@@ -17,17 +17,17 @@ class FirstModulePresenter: NSObject, FirstModuleModuleInput, FirstModuleViewOut
     
     func sendDataButtonClicled() {
         view.getDataWithResultBlock { [weak self] (data) in
-            self?.router.openSecondModuleWithExampleString(data)
+            self?.router.openSecondModuleWithExampleString(data: data)
         }
     }
     
     func instantiateThirdModule() {
         view.getDataWithResultBlock { [weak self] (data) in
-            self?.router.instantiateThirdModuleWithExampleString(data)
+            self?.router.instantiateThirdModuleWithExampleString(data: data)
         }
     }
     
-    func moduleConfigurationMethod(string: String) {
-        view.setTextInEditField(string)
+    func moduleConfigurationMethod(data string: String) {
+        view.setTextInEditField(text: string)
     }
 }

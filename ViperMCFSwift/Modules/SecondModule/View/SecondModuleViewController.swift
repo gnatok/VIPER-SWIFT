@@ -15,7 +15,7 @@ class SecondModuleViewController: UIViewController, SecondModuleViewInput {
     
     var output: SecondModuleViewOutput!
 
-    @IBAction func sendDataButtonDidClick(sender: AnyObject) {
+    @IBAction func sendDataButtonDidClick(_ sender: AnyObject) {
         output.sendDataWasClicked()
     }
     

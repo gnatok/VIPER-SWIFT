@@ -13,7 +13,7 @@ class FirstModuleConfigurator {
     func configureModuleForViewInput<UIViewController>(viewInput: UIViewController) {
 
         if let viewController = viewInput as? FirstModuleViewController {
-            configure(viewController)
+            configure(viewController: viewController)
         }
     }
 

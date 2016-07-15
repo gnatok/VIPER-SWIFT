@@ -16,6 +16,6 @@ class ThirdModuleModuleInitializer: NSObject {
     override func awakeFromNib() {
 
         let configurator = ThirdModuleModuleConfigurator()
-        configurator.configureModuleForViewInput(thirdmoduleViewController)
+        configurator.configureModuleForViewInput(viewInput: thirdmoduleViewController)
     }
 }

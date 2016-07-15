@@ -596,9 +596,15 @@
 				TargetAttributes = {
 					861E33551D3524DC00AD82C8 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6WLQ8AQ724;
+						DevelopmentTeamName = "Oleksandr Gnatyshyn (Personal Team)";
+						LastSwiftMigration = 0800;
 					};
 					DA389D6A1D3770A7004E7252 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6WLQ8AQ724;
+						DevelopmentTeamName = "Oleksandr Gnatyshyn (Personal Team)";
+						LastSwiftMigration = 0800;
 						TestTargetID = 861E33551D3524DC00AD82C8;
 					};
 				};
@@ -915,6 +921,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gnatok.ViperMCFSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -927,6 +934,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gnatok.ViperMCFSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -939,6 +947,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gnatok.ViperMCFSwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViperMCFSwift.app/ViperMCFSwift";
 			};
 			name = Debug;
@@ -952,6 +961,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gnatok.ViperMCFSwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViperMCFSwift.app/ViperMCFSwift";
 			};
 			name = Release;

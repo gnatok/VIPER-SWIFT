@@ -19,18 +19,18 @@ class SecondModulePresenter: NSObject, SecondModuleModuleInput, SecondModuleView
     var exampleString: String?
 
     func viewIsReady() {
-        view.setExampleString(exampleString!)
+        view.setExampleString(data: exampleString!)
     }
     
     func configureWithExampleString(data: String) {
         exampleString = data
     }
     
-    @objc func setModuleOutput(moduleOutput: RamblerViperModuleOutput!) {
+    @objc func setModuleOutput(_ moduleOutput: RamblerViperModuleOutput!) {
         firstModuleInput = moduleOutput as! FirstModuleModuleInput
     }
     
     func sendDataWasClicked() {
-        firstModuleInput.moduleConfigurationMethod("Data from second module")
+        firstModuleInput.moduleConfigurationMethod(data: "Data from second module")
     }
 }

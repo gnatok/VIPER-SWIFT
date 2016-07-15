@@ -121,7 +121,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yeJ-9U-XDL">
-                                <rect key="frame" x="190" y="318" width="221" height="30"/>
+                                <rect key="frame" x="202" y="318" width="198" height="30"/>
                                 <state key="normal" title="Insert text in the first Module"/>
                                 <connections>
                                     <action selector="sendDataButtonDidClick:" destination="Luh-0b-HN1" eventType="touchUpInside" id="M5t-4d-1F3"/>

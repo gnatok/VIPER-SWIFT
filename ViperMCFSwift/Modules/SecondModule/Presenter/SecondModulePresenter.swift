@@ -33,5 +33,4 @@ class SecondModulePresenter: NSObject, SecondModuleModuleInput, SecondModuleView
     func sendDataWasClicked() {
         firstModuleInput.moduleConfigurationMethod("Data from second module")
     }
-
 }

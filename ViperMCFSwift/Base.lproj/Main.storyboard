@@ -120,12 +120,21 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yeJ-9U-XDL">
+                                <rect key="frame" x="190" y="318" width="221" height="30"/>
+                                <state key="normal" title="Insert text in the first Module"/>
+                                <connections>
+                                    <action selector="sendDataButtonDidClick:" destination="Luh-0b-HN1" eventType="touchUpInside" id="M5t-4d-1F3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="yeJ-9U-XDL" firstAttribute="top" secondItem="8YN-Iq-Cbs" secondAttribute="bottom" constant="8" id="1kv-9p-sud"/>
                             <constraint firstItem="8YN-Iq-Cbs" firstAttribute="centerX" secondItem="tfT-UL-GSp" secondAttribute="centerX" id="LWU-yg-5s0"/>
                             <constraint firstItem="8YN-Iq-Cbs" firstAttribute="centerY" secondItem="tfT-UL-GSp" secondAttribute="centerY" id="W83-2x-j9o"/>
                             <constraint firstItem="8YN-Iq-Cbs" firstAttribute="leading" secondItem="tfT-UL-GSp" secondAttribute="leading" constant="20" id="fza-m1-F0Y"/>
+                            <constraint firstItem="yeJ-9U-XDL" firstAttribute="centerX" secondItem="tfT-UL-GSp" secondAttribute="centerX" id="g0z-zI-tnI"/>
                             <constraint firstAttribute="trailing" secondItem="8YN-Iq-Cbs" secondAttribute="trailing" constant="20" id="o8i-Td-0rU"/>
                         </constraints>
                     </view>

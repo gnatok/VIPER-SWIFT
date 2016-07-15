@@ -6,6 +6,8 @@
 //  Copyright © 2016 gnatok. All rights reserved.
 //
 
-protocol FirstModuleModuleInput: class {
+import ViperMcFlurry
 
+protocol FirstModuleModuleInput: class, RamblerViperModuleOutput {
+    func moduleConfigurationMethod(data: String)
 }

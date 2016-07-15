@@ -7,12 +7,14 @@
 //
 
 import Foundation
+import ViperMcFlurry
 
 class SecondModulePresenter: NSObject, SecondModuleModuleInput, SecondModuleViewOutput, SecondModuleInteractorOutput {
 
     weak var view: SecondModuleViewInput!
     var interactor: SecondModuleInteractorInput!
     var router: SecondModuleRouterInput!
+    var firstModuleInput: FirstModuleModuleInput!
 
     var exampleString: String?
 
@@ -23,4 +25,13 @@ class SecondModulePresenter: NSObject, SecondModuleModuleInput, SecondModuleView
     func configureWithExampleString(data: String) {
         exampleString = data
     }
+    
+    @objc func setModuleOutput(moduleOutput: RamblerViperModuleOutput!) {
+        firstModuleInput = moduleOutput as! FirstModuleModuleInput
+    }
+    
+    func sendDataWasClicked() {
+        firstModuleInput.moduleConfigurationMethod("Data from second module")
+    }
+
 }

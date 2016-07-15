@@ -25,7 +25,8 @@ class FirstModuleConfigurator {
         let presenter = FirstModulePresenter()
         presenter.view = viewController
         presenter.router = router
-
+        router.moduleOutput = presenter
+        
         let interactor = FirstModuleInteractor()
         interactor.output = presenter
         //interactor.imageLoader

@@ -16,4 +16,6 @@ import Foundation
     */
 
     func viewIsReady()
+    
+    func sendDataWasClicked()
 }

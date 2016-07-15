@@ -30,6 +30,10 @@ class FirstModuleViewController: UIViewController, FirstModuleViewInput {
         resultBlock(data: textField.text!)
     }
     
+    func setTextInEditField(text: String) {
+        textField.text = text
+    }
+    
     @IBAction func didClickSendDataButton(sender: UIButton) {
         textField.resignFirstResponder()
         output.sendDataButtonClicled()

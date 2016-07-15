@@ -11,4 +11,5 @@ typealias DataResultBlock = (data: String) -> Void
 protocol FirstModuleViewInput: class {
     func getDataWithResultBlock(resultBlock: DataResultBlock)
     func setupInitialState()
+    func setTextInEditField(text: String)
 }

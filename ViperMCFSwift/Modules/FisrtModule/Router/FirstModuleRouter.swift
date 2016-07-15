@@ -14,6 +14,7 @@ class FirstModuleRouter: NSObject, FirstModuleRouterInput {
     let mainStoryBoard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
     let segueIdentifier = "detailSecondSegue"
     let thirdModuleID = "thirdModuleController"
+    var moduleOutput: FirstModuleModuleInput!
 
     var transitionHandler: RamblerViperModuleTransitionHandlerProtocol!
 
@@ -23,12 +24,11 @@ class FirstModuleRouter: NSObject, FirstModuleRouterInput {
     }
 
     func openSecondModuleWithExampleString(data: String) {
-        transitionHandler.openModuleUsingSegue!(segueIdentifier).thenChainUsingBlock { moduleInput in
+        transitionHandler.openModuleUsingSegue!(segueIdentifier).thenChainUsingBlock { [weak self] moduleInput in
 
             guard let secondModuleInput = moduleInput as? SecondModuleModuleInput else { fatalError("invalid module type") }
             secondModuleInput.configureWithExampleString(data)
-            
-            return nil
+            return self?.moduleOutput!
         }
     }
 

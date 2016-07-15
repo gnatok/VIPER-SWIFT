@@ -15,6 +15,10 @@ class SecondModuleViewController: UIViewController, SecondModuleViewInput {
     
     var output: SecondModuleViewOutput!
 
+    @IBAction func sendDataButtonDidClick(sender: AnyObject) {
+        output.sendDataWasClicked()
+    }
+    
     // MARK: Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()

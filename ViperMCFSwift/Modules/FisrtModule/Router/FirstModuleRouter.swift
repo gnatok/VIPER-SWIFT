@@ -15,7 +15,6 @@ class FirstModuleRouter: NSObject, FirstModuleRouterInput {
     let segueIdentifier = "detailSecondSegue"
     let thirdModuleID = "thirdModuleController"
     var moduleOutput: FirstModuleModuleInput!
- 
     var transitionHandler: RamblerViperModuleTransitionHandlerProtocol!
 
     var transitionModuleFactory: RamblerViperModuleFactory {
@@ -27,11 +26,13 @@ class FirstModuleRouter: NSObject, FirstModuleRouterInput {
         transitionHandler.openModule!(usingSegue: segueIdentifier).thenChain { [weak self] moduleInput in
 
             guard let secondModuleInput = moduleInput as? SecondModuleModuleInput else { fatalError("invalid module type") }
+            
             secondModuleInput.configureWithExampleString(data: data)
-            return self?.moduleOutput!
+            return self?.moduleOutput
         }
     }
 
+    
     func instantiateThirdModuleWithExampleString(data: String) {
         transitionHandler.openModule!(usingFactory: transitionModuleFactory) { sourceModuleTransitionHandler, destinationModuleTransitionHandler in
             let sourceVC = sourceModuleTransitionHandler as! UIViewController

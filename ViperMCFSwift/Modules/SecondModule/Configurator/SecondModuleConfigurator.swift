@@ -20,6 +20,7 @@ class SecondModuleModuleConfigurator {
     private func configure(viewController: SecondModuleViewController) {
 
         let router = SecondModuleRouter()
+        router.transitionHandler = viewController
 
         let presenter = SecondModulePresenter()
         presenter.view = viewController

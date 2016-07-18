@@ -9,5 +9,5 @@
 import ViperMcFlurry
 
 class SecondModuleRouter: NSObject, SecondModuleRouterInput {
-    var transitionHandler: RamblerViperModuleTransitionHandlerProtocol!
+    weak var transitionHandler: RamblerViperModuleTransitionHandlerProtocol!
 }

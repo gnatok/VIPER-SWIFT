@@ -20,7 +20,8 @@ class ThirdModuleModuleConfigurator {
     private func configure(viewController: ThirdModuleViewController) {
 
         let router = ThirdModuleRouter()
-
+        router.transitionHandler = viewController
+        
         let presenter = ThirdModulePresenter()
         presenter.view = viewController
         presenter.router = router

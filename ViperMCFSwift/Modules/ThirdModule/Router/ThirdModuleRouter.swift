@@ -9,5 +9,5 @@
 import ViperMcFlurry
 
 class ThirdModuleRouter: ThirdModuleRouterInput {
-    var transitionHandler: RamblerViperModuleTransitionHandlerProtocol!
+    weak var transitionHandler: RamblerViperModuleTransitionHandlerProtocol!
 }
